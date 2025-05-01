@@ -1,0 +1,11 @@
+
+    .next
+    public
+    node_modules
+    next.config.ts
+    package.json
+    package-lock.json
+    eslint.config.mjs
+    postcss.config.mjsREADME.mjsREADMEsrc/app/.prettierrc
+    src/app/globals
+    tsconfig.json
