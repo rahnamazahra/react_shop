@@ -1,13 +1,15 @@
+import Banner from "@/components/banner";
+import Category from "@/components/category";
+import Navigation from "@/components/navigation";
+
+
 export default function Home() {
-  const renderName = () => {
-    const name = 'zahra';
-    return <span>{name}</span>;
-  };
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      تست ری اکت
-      {renderName()}
+    <div className="text-center">
+      <Navigation />
+      <Banner />
+      <Category />
     </div>
   );
 }
